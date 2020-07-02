@@ -1,0 +1,143 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+#login {
+  font-size: 14px;
+  color: #757575;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  min-height: auto;
+  position: relative;
+}
+#login #docHead {
+  width: 1903px;
+  margin: 0 auto;
+}
+#login #docHead #docHeadWrap {
+  width: 1130px;
+  height: 98px;
+  margin: 0 auto;
+}
+#login #docHead #docHeadWrap .head_con {
+  width: 200px;
+  height: 98px;
+  background: url(../images/login_logo.jpg) no-repeat;
+}
+#login #docHead #docHeadWrap .head_con a {
+  display: block;
+  height: 98px;
+}
+#login #login_banner {
+  width: 100%;
+  height: 588px;
+  position: absolute;
+  left: 0;
+  top: 98px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url("../images/banner.login.jpg");
+}
+#login #loginlist {
+  font-size: 14px;
+  padding-bottom: 0;
+  position: relative;
+  color: #757575;
+  padding: 0;
+  width: 1130px;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+#login #loginlist #loginlistwrap {
+  color: #757575;
+  padding: 0;
+  background-color: #fff;
+  max-width: 854px;
+  margin: 0 auto 20px;
+  position: relative;
+  min-width: 400px;
+  width: 410px;
+  min-height: 556px;
+  margin-bottom: 0;
+  margin-right: 0;
+  font-size: 14px;
+  z-index: 4;
+  margin-top: -86PX;
+}
+#login #loginlist #loginlistwrap .login_con {
+  color: #757575;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+#login #loginlist #loginlistwrap .login_con .login_nav {
+  color: #757575;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+#login #loginlist #loginlistwrap .login_con .login_nav .nav_con {
+  margin: 0;
+  padding: 27px 0 24px;
+  text-align: center;
+  font-size: 24px;
+  color: #666;
+}
+#login #loginlist #loginlistwrap .login_con .login_nav .nav_con a {
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: 0 none;
+  border: 0 none;
+  -webkit-appearance: none;
+  color: black;
+}
+#login #loginlist #loginlistwrap .login_con .login_nav .nav_con span {
+  text-align: center;
+  font-size: 24px;
+  color: #666;
+  padding: 0;
+  width: 1px;
+  height: 24px;
+  margin: 0 35px 0 42px;
+  border: 1px solid #e0e0e0;
+}
+#login #loginlist #loginlistwrap .login_con .login_nav .nav_con .now {
+  color: #f56600;
+}
+#login #loginlist #loginlistwrap .login_con .login_list {
+  color: #757575;
+  font-size: 14px;
+  padding: 0;
+  margin: 0 auto;
+  width: 348px;
+  padding-bottom: 0;
+  position: relative;
+}
+#login #loginlist #loginlistwrap .login_con .login_list .lgn_inputbg {
+  color: #757575;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  zoom: 1;
+  position: relative;
+}
+#login #loginlist #loginlistwrap .login_con .login_list .lgn_inputbg .labelbox {
+  color: #757575;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.float_left {
+  float: left;
+}
